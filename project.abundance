@@ -38,14 +38,19 @@
                     "x": 0.9718181818181818,
                     "y": 0.49682875264270615,
                     "uniqueID": 1745802196194,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1745803693620
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11454545454545456,
-                    "y": 0.26215644820295986,
+                    "x": 0.12122641509433964,
+                    "y": 0.1073558648111332,
                     "uniqueID": 1745802307955,
                     "ioValues": [
                         {
@@ -58,8 +63,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.21363636363636362,
-                    "y": 0.25158562367864695,
+                    "x": 0.23915094339622642,
+                    "y": 0.1411530815109344,
                     "uniqueID": 1745802364813,
                     "ioValues": [
                         {
@@ -108,8 +113,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4290909090909091,
-                    "y": 0.6701902748414376,
+                    "x": 0.3933962264150943,
+                    "y": 0.5248508946322068,
                     "uniqueID": 1745803506486,
                     "ioValues": [
                         {
@@ -134,13 +139,21 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.6618181818181819,
-                    "y": 0.3044397463002114,
+                    "x": 0.7881818181818182,
+                    "y": 0.4439746300211416,
                     "uniqueID": 1745803693620,
                     "ioValues": [
                         {
                             "name": "Shape 1",
                             "ioValue": 1745802364813
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": 1745805815892
+                        },
+                        {
+                            "name": "Shape 7",
+                            "ioValue": 1745805882117
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -175,8 +188,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.40090909090909094,
-                    "y": 0.9154334038054968,
+                    "x": 0.4018867924528302,
+                    "y": 0.7037773359840954,
                     "uniqueID": 1745803982529,
                     "ioValues": [
                         {
@@ -201,8 +214,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4145454545454545,
-                    "y": 0.4143763213530655,
+                    "x": 0.38490566037735846,
+                    "y": 0.3499005964214712,
                     "uniqueID": 1745804218279,
                     "ioValues": [
                         {
@@ -246,6 +259,61 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7183962264150944,
+                    "y": 0.7614314115308151,
+                    "uniqueID": 1745805882117,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745805815892
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 74.5
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 0.05377358490566038,
+                    "y": 0.2664015904572565,
+                    "uniqueID": 1745806152836,
+                    "ioValues": [],
+                    "description": "Defines a mathematical constant.",
+                    "value": 85
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x + y",
+                    "x": 0.5429245283018868,
+                    "y": 0.7892644135188868,
+                    "uniqueID": 1745806239647,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 85
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x + y"
                 }
             ],
             "allConnectors": [
@@ -300,6 +368,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1745803693620,
+                    "ap2ID": 1745802196194
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745803741906,
@@ -318,6 +393,41 @@
                     "ap2Primary": false,
                     "ap1ID": 1745804218279,
                     "ap2ID": 1745805815892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 1745805815892,
+                    "ap2ID": 1745803693620
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745805815892,
+                    "ap2ID": 1745805882117
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 1745805882117,
+                    "ap2ID": 1745803693620
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1745806152836,
+                    "ap2ID": 1745802364813
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745806152836,
+                    "ap2ID": 1745806239647
                 }
             ],
             "fileTypeVersion": 1,
@@ -593,8 +703,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5509090909090909,
-            "y": 0.3572938689217759,
+            "x": 0.5481818181818182,
+            "y": 0.3551797040169133,
             "uniqueID": 1745805235073,
             "ioValues": [
                 {
