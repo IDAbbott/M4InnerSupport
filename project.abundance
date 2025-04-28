@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SolidBits",
-            "x": 0.14454545454545453,
-            "y": 0.26849894291754756,
+            "x": 0.14481132075471698,
+            "y": 0.24055666003976145,
             "uniqueID": 1745802195632,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -793,7 +793,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 4
+                                    "ioValue": 3.98
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -933,7 +933,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 7
+                                    "ioValue": 6.8
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -1283,7 +1283,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Equation",
