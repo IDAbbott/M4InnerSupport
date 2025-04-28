@@ -491,8 +491,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.10283018867924529,
-                    "y": 0.5248508946322068,
+                    "x": 0.11273584905660378,
+                    "y": 0.4353876739562624,
                     "uniqueID": 1745804454922,
                     "ioValues": [
                         {
@@ -505,8 +505,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.23679245283018868,
-                    "y": 0.5168986083499006,
+                    "x": 0.24481132075471698,
+                    "y": 0.35785288270377735,
                     "uniqueID": 1745804496004,
                     "ioValues": [
                         {
@@ -523,8 +523,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.30471698113207546,
-                    "y": 0.5228628230616302,
+                    "x": 0.3136792452830189,
+                    "y": 0.3697813121272366,
                     "uniqueID": 1745804615397,
                     "ioValues": [
                         {
@@ -549,8 +549,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.43066037735849055,
-                    "y": 0.38966202783300197,
+                    "x": 0.4349056603773585,
+                    "y": 0.3101391650099404,
                     "uniqueID": 1745804719859,
                     "ioValues": [
                         {
@@ -575,8 +575,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4070754716981132,
-                    "y": 0.5467196819085487,
+                    "x": 0.4292452830188679,
+                    "y": 0.489065606361829,
                     "uniqueID": 1745804784245,
                     "ioValues": [
                         {
@@ -601,8 +601,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3915094339622642,
-                    "y": 0.6978131212723658,
+                    "x": 0.404245283018868,
+                    "y": 0.6123260437375745,
                     "uniqueID": 1745804799740,
                     "ioValues": [
                         {
@@ -627,8 +627,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5839622641509434,
-                    "y": 0.44731610337972166,
+                    "x": 0.6193396226415094,
+                    "y": 0.22664015904572563,
                     "uniqueID": 1745804907998,
                     "ioValues": [
                         {
@@ -646,6 +646,14 @@
                         {
                             "name": "Shape 4",
                             "ioValue": 1745806800727
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1745807398727
+                        },
+                        {
+                            "name": "Shape 7",
+                            "ioValue": 1745807578139
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -722,8 +730,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1,
-                    "y": 0.7733598409542743,
+                    "x": 0.09528301886792452,
+                    "y": 0.6679920477137177,
                     "uniqueID": 1745807020584,
                     "ioValues": [
                         {
@@ -736,8 +744,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2009433962264151,
-                    "y": 0.7395626242544732,
+                    "x": 0.2485849056603774,
+                    "y": 0.5685884691848907,
                     "uniqueID": 1745807398727,
                     "ioValues": [
                         {
@@ -750,6 +758,51 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x - y",
+                    "x": 0.2240566037735849,
+                    "y": 0.7872763419483102,
+                    "uniqueID": 1745807492984,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 87
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 27
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x - y"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3872641509433963,
+                    "y": 0.7395626242544732,
+                    "uniqueID": 1745807578139,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745807398727
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 60
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -838,6 +891,13 @@
                     "ap2ID": 1745804496004
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745806686996,
+                    "ap2ID": 1745807492984
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -857,6 +917,34 @@
                     "ap2Primary": true,
                     "ap1ID": 1745807020584,
                     "ap2ID": 1745807398727
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 1745807398727,
+                    "ap2ID": 1745804907998
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745807398727,
+                    "ap2ID": 1745807578139
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745807492984,
+                    "ap2ID": 1745807578139
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 1745807578139,
+                    "ap2ID": 1745804907998
                 }
             ],
             "fileTypeVersion": 1,
