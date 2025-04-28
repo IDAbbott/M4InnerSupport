@@ -105,7 +105,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 13
+                            "ioValue": 16
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -281,7 +281,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 72
+                            "ioValue": 69
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -309,7 +309,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 13
+                            "ioValue": 16
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -323,7 +323,7 @@
                     "uniqueID": 1745806318132,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 13
+                    "value": 16
                 }
             ],
             "allConnectors": [
