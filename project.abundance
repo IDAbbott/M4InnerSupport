@@ -491,8 +491,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.12877358490566038,
-                    "y": 0.7872763419483102,
+                    "x": 0.10283018867924529,
+                    "y": 0.5248508946322068,
                     "uniqueID": 1745804454922,
                     "ioValues": [
                         {
@@ -505,8 +505,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.22499999999999998,
-                    "y": 0.7892644135188868,
+                    "x": 0.23679245283018868,
+                    "y": 0.5168986083499006,
                     "uniqueID": 1745804496004,
                     "ioValues": [
                         {
@@ -515,7 +515,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 85
+                            "ioValue": 87
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -523,8 +523,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.30660377358490565,
-                    "y": 0.7872763419483102,
+                    "x": 0.30471698113207546,
+                    "y": 0.5228628230616302,
                     "uniqueID": 1745804615397,
                     "ioValues": [
                         {
@@ -541,7 +541,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -1
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -549,8 +549,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4202830188679246,
-                    "y": 0.5268389662027833,
+                    "x": 0.43066037735849055,
+                    "y": 0.38966202783300197,
                     "uniqueID": 1745804719859,
                     "ioValues": [
                         {
@@ -575,8 +575,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4216981132075472,
-                    "y": 0.6819085487077535,
+                    "x": 0.4070754716981132,
+                    "y": 0.5467196819085487,
                     "uniqueID": 1745804784245,
                     "ioValues": [
                         {
@@ -601,8 +601,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4165094339622642,
-                    "y": 0.856858846918489,
+                    "x": 0.3915094339622642,
+                    "y": 0.6978131212723658,
                     "uniqueID": 1745804799740,
                     "ioValues": [
                         {
@@ -627,8 +627,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5827272727272726,
-                    "y": 0.45665961945031713,
+                    "x": 0.5839622641509434,
+                    "y": 0.44731610337972166,
                     "uniqueID": 1745804907998,
                     "ioValues": [
                         {
@@ -673,7 +673,7 @@
                     "uniqueID": 1745806686996,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 90
+                    "value": 87
                 },
                 {
                     "atomType": "Extrude",
@@ -688,7 +688,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 90
+                            "ioValue": 87
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -718,6 +718,20 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1,
+                    "y": 0.7733598409542743,
+                    "uniqueID": 1745807020584,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 27
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
@@ -797,6 +811,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1745806686996,
                     "ap2ID": 1745806759685
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1745806686996,
+                    "ap2ID": 1745804496004
                 },
                 {
                     "ap1Name": "geometry",
