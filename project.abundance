@@ -468,7 +468,7 @@
             "atomType": "Molecule",
             "name": "VacantSpace",
             "x": 0.16084905660377358,
-            "y": 0.6262425447316103,
+            "y": 0.6302186878727635,
             "uniqueID": 1745802265475,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -591,12 +591,12 @@
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.0740566037735849,
-                    "y": 0.5168986083499006,
+                    "y": 0.5248508946322068,
                     "uniqueID": 1745807020584,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 19.1
+                            "ioValue": 19.5
                         }
                     ],
                     "description": "Creates a new circle."
