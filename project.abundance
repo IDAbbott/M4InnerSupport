@@ -728,10 +728,28 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 27
+                            "ioValue": 19
                         }
                     ],
                     "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.2009433962264151,
+                    "y": 0.7395626242544732,
+                    "uniqueID": 1745807398727,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745807020584
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 27
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -832,6 +850,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1745806800727,
                     "ap2ID": 1745804907998
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745807020584,
+                    "ap2ID": 1745807398727
                 }
             ],
             "fileTypeVersion": 1,
