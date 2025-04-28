@@ -620,25 +620,6 @@
                     "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "x - y",
-                    "x": 0.18537735849056605,
-                    "y": 0.5606361829025845,
-                    "uniqueID": 1745807492984,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 27
-                        }
-                    ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x - y"
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.3759433962264151,
@@ -659,7 +640,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -26
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -667,8 +648,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.46179245283018866,
-                    "y": 0.5467196819085487,
+                    "x": 0.48396226415094334,
+                    "y": 0.6958250497017893,
                     "uniqueID": 1745807768845,
                     "ioValues": [
                         {
@@ -681,32 +662,32 @@
                 {
                     "atomType": "Loft",
                     "name": "Loft",
-                    "x": 0.6919811320754717,
-                    "y": 0.45129224652087474,
+                    "x": 0.6764150943396227,
+                    "y": 0.7833001988071571,
                     "uniqueID": 1745807838552,
                     "ioValues": [
                         {
-                            "name": "Shape 5",
-                            "ioValue": 1745807768845
-                        },
-                        {
-                            "name": "Shape 6",
+                            "name": "Shape 8",
                             "ioValue": 1745808103766
                         },
                         {
-                            "name": "Shape 7",
+                            "name": "Shape 9",
+                            "ioValue": 1745807768845
+                        },
+                        {
+                            "name": "Shape 10",
                             "ioValue": ""
                         },
                         {
-                            "name": "Shape 5",
-                            "ioValue": 1745807768845
-                        },
-                        {
-                            "name": "Shape 6",
+                            "name": "Shape 8",
                             "ioValue": 1745808103766
                         },
                         {
-                            "name": "Shape 7",
+                            "name": "Shape 9",
+                            "ioValue": 1745807768845
+                        },
+                        {
+                            "name": "Shape 10",
                             "ioValue": ""
                         }
                     ],
@@ -716,8 +697,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.5122641509433963,
-                    "y": 0.6481113320079523,
+                    "x": 0.4514150943396226,
+                    "y": 0.874751491053678,
                     "uniqueID": 1745807900916,
                     "ioValues": [
                         {
@@ -730,8 +711,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5806603773584906,
-                    "y": 0.606361829025845,
+                    "x": 0.5509433962264151,
+                    "y": 0.9165009940357853,
                     "uniqueID": 1745808103766,
                     "ioValues": [
                         {
@@ -774,29 +755,10 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -31
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "x - y",
-                    "x": 0.29056603773584905,
-                    "y": 0.6282306163021869,
-                    "uniqueID": 1745808259941,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": -26
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 5
-                        }
-                    ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x - y"
                 },
                 {
                     "atomType": "Molecule",
@@ -1382,20 +1344,6 @@
                     "ap2ID": 1745807578139
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1745807492984,
-                    "ap2ID": 1745807578139
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 1745807492984,
-                    "ap2ID": 1745808259941
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 7",
                     "ap2Primary": false,
@@ -1404,7 +1352,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 5",
+                    "ap2Name": "Shape 9",
                     "ap2Primary": false,
                     "ap1ID": 1745807768845,
                     "ap2ID": 1745807838552
@@ -1425,7 +1373,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 6",
+                    "ap2Name": "Shape 8",
                     "ap2Primary": false,
                     "ap1ID": 1745808103766,
                     "ap2ID": 1745807838552
@@ -1436,13 +1384,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1745808154548,
                     "ap2ID": 1745804907998
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1745808259941,
-                    "ap2ID": 1745808154548
                 },
                 {
                     "ap1Name": "Geometry",
