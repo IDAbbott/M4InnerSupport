@@ -803,6 +803,87 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.48396226415094334,
+                    "y": 0.7157057654075547,
+                    "uniqueID": 1745807768845,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 11
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Loft",
+                    "name": "Loft",
+                    "x": 0.6599056603773584,
+                    "y": 0.8011928429423459,
+                    "uniqueID": 1745807838552,
+                    "ioValues": [
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1745807953497
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1745807900916
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1745807953497
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1745807900916
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.49150943396226415,
+                    "y": 0.9045725646123259,
+                    "uniqueID": 1745807900916,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 19
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5792452830188679,
+                    "y": 0.6520874751491054,
+                    "uniqueID": 1745807953497,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745807768845
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -945,6 +1026,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1745807578139,
                     "ap2ID": 1745804907998
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745807768845,
+                    "ap2ID": 1745807953497
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1745807900916,
+                    "ap2ID": 1745807838552
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1745807953497,
+                    "ap2ID": 1745807838552
                 }
             ],
             "fileTypeVersion": 1,
