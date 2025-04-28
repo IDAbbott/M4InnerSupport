@@ -81,6 +81,42 @@
                         }
                     ],
                     "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.11636363636363636,
+                    "y": 0.602536997885835,
+                    "uniqueID": 1745802491506,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 7
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.25181818181818183,
+                    "y": 0.5835095137420718,
+                    "uniqueID": 1745802598001,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745802491506
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -90,6 +126,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1745802307955,
                     "ap2ID": 1745802364813
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745802491506,
+                    "ap2ID": 1745802598001
                 }
             ],
             "fileTypeVersion": 1,
