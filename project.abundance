@@ -628,7 +628,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 87
+                            "ioValue": 1
                         },
                         {
                             "name": "y",
@@ -659,7 +659,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60
+                            "ioValue": -26
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -673,7 +673,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 11
+                            "ioValue": 19
                         }
                     ],
                     "description": "Creates a new circle."
@@ -681,8 +681,8 @@
                 {
                     "atomType": "Loft",
                     "name": "Loft",
-                    "x": 0.635377358490566,
-                    "y": 0.42147117296222664,
+                    "x": 0.6919811320754717,
+                    "y": 0.45129224652087474,
                     "uniqueID": 1745807838552,
                     "ioValues": [
                         {
@@ -722,7 +722,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 19
+                            "ioValue": 11
                         }
                     ],
                     "description": "Creates a new circle."
@@ -774,7 +774,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 55
+                            "ioValue": -31
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -788,7 +788,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 60
+                            "ioValue": -26
                         },
                         {
                             "name": "y",
@@ -1345,13 +1345,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1745806686996,
                     "ap2ID": 1745806759685
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 1745806686996,
-                    "ap2ID": 1745807492984
                 },
                 {
                     "ap1Name": "geometry",
