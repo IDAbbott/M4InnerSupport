@@ -491,8 +491,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.7731132075471698,
-                    "y": 0.15308151093439362,
+                    "x": 0.775,
+                    "y": 0.15904572564612326,
                     "uniqueID": 1745804907998,
                     "ioValues": [
                         {
@@ -640,7 +640,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60
+                            "ioValue": 59
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1298,7 +1298,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 27
+                            "ioValue": 28
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
