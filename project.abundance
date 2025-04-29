@@ -54,8 +54,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16727272727272727,
-                    "y": 0.29508196721311475,
+                    "x": 0.19545454545454544,
+                    "y": 0.3723653395784543,
                     "uniqueID": 1745802307955,
                     "ioValues": [
                         {
@@ -304,8 +304,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x - y",
-                    "x": 0.16999999999999998,
-                    "y": 0.747072599531616,
+                    "x": 0.16727272727272727,
+                    "y": 0.43793911007025765,
                     "uniqueID": 1745806239647,
                     "ioValues": [
                         {
@@ -339,10 +339,26 @@
                     "ioValues": [
                         {
                             "name": "Shape 4",
+                            "ioValue": 1745961362364
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1745802307955
+                        },
+                        {
+                            "name": "Shape 6",
                             "ioValue": ""
                         },
                         {
                             "name": "Shape 4",
+                            "ioValue": 1745961362364
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1745802307955
+                        },
+                        {
+                            "name": "Shape 6",
                             "ioValue": ""
                         }
                     ],
@@ -352,13 +368,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.2863636363636364,
-                    "y": 0.23185011709601874,
+                    "x": 0.3245454545454545,
+                    "y": 0.24355971896955503,
                     "uniqueID": 1745961362364,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1745961560366
                         },
                         {
                             "name": "xDist",
@@ -384,6 +400,46 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.26454545454545453,
+                    "y": 0.234192037470726,
+                    "uniqueID": 1745961560366,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 37
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.49909090909090914,
+                    "y": 0.3372365339578454,
+                    "uniqueID": 1745961683086,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745961297946
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -393,6 +449,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1745802307955,
                     "ap2ID": 1745802364813
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 1745802307955,
+                    "ap2ID": 1745961297946
                 },
                 {
                     "ap1Name": "geometry",
@@ -519,6 +582,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1745806318132,
                     "ap2ID": 1745806239647
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745961297946,
+                    "ap2ID": 1745961683086
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1745961362364,
+                    "ap2ID": 1745961297946
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745961560366,
+                    "ap2ID": 1745961362364
                 }
             ],
             "fileTypeVersion": 1,
