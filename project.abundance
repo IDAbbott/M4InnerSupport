@@ -304,8 +304,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x - y",
-                    "x": 0.16727272727272727,
-                    "y": 0.43793911007025765,
+                    "x": 0.1918181818181818,
+                    "y": 0.7892271662763467,
                     "uniqueID": 1745806239647,
                     "ioValues": [
                         {
@@ -436,10 +436,29 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 65
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x - y",
+                    "x": 0.3518181818181818,
+                    "y": 0.4028103044496487,
+                    "uniqueID": 1745962051028,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 70
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 5
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x - y"
                 }
             ],
             "allConnectors": [
@@ -570,6 +589,13 @@
                     "ap2ID": 1745805882117
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745806239647,
+                    "ap2ID": 1745962051028
+                },
+                {
                     "ap1Name": "number",
                     "ap2Name": "height",
                     "ap2Primary": false,
@@ -603,6 +629,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1745961560366,
                     "ap2ID": 1745961362364
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745962051028,
+                    "ap2ID": 1745961683086
                 }
             ],
             "fileTypeVersion": 1,
