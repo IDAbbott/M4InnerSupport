@@ -640,7 +640,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 65
+                            "ioValue": 64
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1340,7 +1340,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 23
+                            "ioValue": 24
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1472,8 +1472,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x + y",
-                    "x": 0.5,
-                    "y": 0.5,
+                    "x": 0.3460291734197731,
+                    "y": 0.6398104265402844,
                     "uniqueID": 1745839154823,
                     "ioValues": [
                         {
