@@ -1691,8 +1691,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6556603773584906,
-            "y": 0.731610337972167,
+            "x": 0.6815235008103728,
+            "y": 0.518957345971564,
             "uniqueID": 1745808374784,
             "ioValues": [
                 {
@@ -1749,6 +1749,101 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.14748784440842788,
+            "y": 0.9265402843601896,
+            "uniqueID": 1746671919985,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 11
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.44246353322528365,
+            "y": 0.9170616113744076,
+            "uniqueID": 1746671994007,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746672040166
+                },
+                {
+                    "name": "height",
+                    "ioValue": 50
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.3225283630470016,
+            "y": 0.9241706161137442,
+            "uniqueID": 1746672040166,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746671919985
+                }
+            ],
+            "description": "Changes the color of the shape.",
+            "selectedColorIndex": 22
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5510534846029174,
+            "y": 0.7464454976303319,
+            "uniqueID": 1746672106039,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1746671862948
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1746671994007
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.6709886547811994,
+            "y": 0.7819905213270142,
+            "uniqueID": 1746672123395,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746672106039
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "M4InnerSupport"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STEP"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STEP",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "M4InnerSupport"
         }
     ],
     "allConnectors": [
@@ -1793,6 +1888,41 @@
             "ap2Primary": true,
             "ap1ID": 1746671854494,
             "ap2ID": 1746671862948
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1746671862948,
+            "ap2ID": 1746672106039
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746671919985,
+            "ap2ID": 1746672040166
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1746671994007,
+            "ap2ID": 1746672106039
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746672040166,
+            "ap2ID": 1746671994007
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746672106039,
+            "ap2ID": 1746672123395
         }
     ],
     "unitsKey": "MM",
