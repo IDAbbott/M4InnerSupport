@@ -541,7 +541,7 @@
                     "uniqueID": 1745806686996,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 88
+                    "value": 87
                 },
                 {
                     "atomType": "Extrude",
@@ -556,7 +556,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 88
+                            "ioValue": 87
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -640,7 +640,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 65
+                            "ioValue": 58
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1330,17 +1330,17 @@
                 {
                     "atomType": "Equation",
                     "name": "x - y",
-                    "x": 0.18632075471698112,
-                    "y": 0.6123260437375745,
+                    "x": 0.1839546191247974,
+                    "y": 0.6066350710900474,
                     "uniqueID": 1745810630987,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 88
+                            "ioValue": 87
                         },
                         {
                             "name": "y",
-                            "ioValue": 23
+                            "ioValue": 29
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
