@@ -1832,7 +1832,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "M4InnerSupport"
+                    "ioValue": "M4InnerSpacer"
                 },
                 {
                     "name": "File Type",
@@ -1843,7 +1843,7 @@
             "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "M4InnerSupport"
+            "partName": "M4InnerSpacer"
         }
     ],
     "allConnectors": [
