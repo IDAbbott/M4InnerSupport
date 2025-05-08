@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9708372530573847,
-            "y": 0.4890829694323144,
+            "x": 0.9611021069692058,
+            "y": 0.48341232227488146,
             "uniqueID": 1745802181611,
             "ioValues": [
                 {
@@ -59,7 +59,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 86.5
+                            "ioValue": 86
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -125,8 +125,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.8127272727272727,
-                    "y": 0.3255269320843091,
+                    "x": 0.8144246353322527,
+                    "y": 0.3127962085308057,
                     "uniqueID": 1745803693620,
                     "ioValues": [
                         {
@@ -267,7 +267,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 70.5
+                            "ioValue": 70
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -275,12 +275,12 @@
                 {
                     "atomType": "Constant",
                     "name": "Length",
-                    "x": 0.02090909090909091,
-                    "y": 0.4660421545667447,
+                    "x": 0.02188006482982172,
+                    "y": 0.4620853080568721,
                     "uniqueID": 1745806152836,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 86.5
+                    "value": 86
                 },
                 {
                     "atomType": "Equation",
@@ -291,7 +291,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 86.5
+                            "ioValue": 86
                         },
                         {
                             "name": "y",
@@ -604,8 +604,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.24553151458137346,
-                    "y": 0.2838427947598253,
+                    "x": 0.24635332252836306,
+                    "y": 0.2677725118483412,
                     "uniqueID": 1745807398727,
                     "ioValues": [
                         {
@@ -614,7 +614,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 23
+                            "ioValue": 29
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -640,7 +640,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 64
+                            "ioValue": 65
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1340,7 +1340,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 24
+                            "ioValue": 23
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
