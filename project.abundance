@@ -1468,25 +1468,6 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "x + y",
-                    "x": 0.3460291734197731,
-                    "y": 0.6398104265402844,
-                    "uniqueID": 1745839154823,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        }
-                    ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x + y"
                 }
             ],
             "allConnectors": [
