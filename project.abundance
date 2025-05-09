@@ -91,7 +91,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 15
+                            "ioValue": 10
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -267,7 +267,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 73
+                            "ioValue": 78
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -295,7 +295,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 15
+                            "ioValue": 10
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -309,7 +309,7 @@
                     "uniqueID": 1745806318132,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 15
+                    "value": 10
                 },
                 {
                     "atomType": "Circle",
@@ -891,7 +891,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1058,7 +1058,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 20
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1136,7 +1136,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 15
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1150,7 +1150,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1164,7 +1164,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 3
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Creates a new circle."
