@@ -1042,7 +1042,7 @@
                             "ioValues": [
                                 {
                                     "name": "number of sides",
-                                    "ioValue": 3
+                                    "ioValue": 6
                                 },
                                 {
                                     "name": "diameter",
@@ -1082,11 +1082,11 @@
                                 },
                                 {
                                     "name": "x-axis degrees",
-                                    "ioValue": 90
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "y-axis degrees",
-                                    "ioValue": 30
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "z-axis degrees",
@@ -1098,8 +1098,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.33962264150943394,
-                            "y": 0.8031809145129225,
+                            "x": 0.3411669367909238,
+                            "y": 0.7985781990521328,
                             "uniqueID": 1745839955478,
                             "ioValues": [
                                 {
@@ -1550,7 +1550,7 @@
             "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "M4InnerSupHollow"
+            "partName": "M4InnerSupport"
         },
         {
             "atomType": "Export",
@@ -1580,7 +1580,7 @@
             "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "M4InnerSpacer"
+            "partName": "M4InnerSupport"
         },
         {
             "atomType": "Molecule",
