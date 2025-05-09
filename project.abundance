@@ -1018,8 +1018,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.37181818181818177,
-                            "y": 0.34894613583138173,
+                            "x": 0.373581847649919,
+                            "y": 0.34834123222748814,
                             "uniqueID": 1745839346951,
                             "ioValues": [
                                 {
@@ -1029,6 +1029,10 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": 1745808925886
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": 1746749432248
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1150,8 +1154,8 @@
                         {
                             "atomType": "Loft",
                             "name": "Loft",
-                            "x": 0.39222042139384117,
-                            "y": 0.7037914691943128,
+                            "x": 0.28687196110210694,
+                            "y": 0.7393364928909952,
                             "uniqueID": 1746749432248,
                             "ioValues": [
                                 {
@@ -1160,6 +1164,10 @@
                                 },
                                 {
                                     "name": "Shape 4",
+                                    "ioValue": 1746749543052
+                                },
+                                {
+                                    "name": "Shape 5",
                                     "ioValue": ""
                                 },
                                 {
@@ -1168,6 +1176,10 @@
                                 },
                                 {
                                     "name": "Shape 4",
+                                    "ioValue": 1746749543052
+                                },
+                                {
+                                    "name": "Shape 5",
                                     "ioValue": ""
                                 }
                             ],
@@ -1177,8 +1189,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.21231766612641814,
-                            "y": 0.6232227488151659,
+                            "x": 0.20907617504051865,
+                            "y": 0.6161137440758294,
                             "uniqueID": 1746749543052,
                             "ioValues": [
                                 {
@@ -1195,7 +1207,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1341,6 +1353,20 @@
                             "ap2Primary": true,
                             "ap1ID": 1746749404787,
                             "ap2ID": 1745839955478
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 1746749432248,
+                            "ap2ID": 1745839346951
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 1746749543052,
+                            "ap2ID": 1746749432248
                         }
                     ],
                     "fileTypeVersion": 1,
