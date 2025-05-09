@@ -755,8 +755,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BlankNut",
-                    "x": 0.23632075471698114,
-                    "y": 0.8707753479125248,
+                    "x": 0.22852512155591573,
+                    "y": 0.8507109004739336,
                     "uniqueID": 1745808852229,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -855,8 +855,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.20849056603773586,
-                            "y": 0.4274353876739563,
+                            "x": 0.20502431118314424,
+                            "y": 0.4146919431279621,
                             "uniqueID": 1745808926514,
                             "ioValues": [
                                 {
@@ -865,7 +865,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 20
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -891,7 +891,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1050,7 +1050,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -1146,7 +1146,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 1
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -1611,7 +1611,7 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6815235008103728,
+            "x": 0.679902755267423,
             "y": 0.518957345971564,
             "uniqueID": 1745808374784,
             "ioValues": [
@@ -1625,7 +1625,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "M4InnerSupHollow"
+                    "ioValue": "M4InnerSupport"
                 },
                 {
                     "name": "File Type",
