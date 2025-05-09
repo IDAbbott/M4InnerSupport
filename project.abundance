@@ -226,8 +226,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5957049486461251,
-                    "y": 0.5876777251184834,
+                    "x": 0.5994397759103641,
+                    "y": 0.604265402843602,
                     "uniqueID": 1745805815892,
                     "ioValues": [
                         {
@@ -249,6 +249,10 @@
                         {
                             "name": "Shape 6",
                             "ioValue": 1746754497049
+                        },
+                        {
+                            "name": "Shape 8",
+                            "ioValue": 1746821326270
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -349,7 +353,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746821326270
                         },
                         {
                             "name": "x-axis degrees",
@@ -375,7 +379,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746821326270
                         },
                         {
                             "name": "x-axis degrees",
@@ -413,8 +417,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.323062558356676,
-                    "y": 0.7796208530805687,
+                    "x": 0.32866479925303455,
+                    "y": 0.7630331753554502,
                     "uniqueID": 1746820326396,
                     "ioValues": [
                         {
@@ -423,15 +427,15 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 45
+                            "ioValue": 0
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 33
+                            "ioValue": 0
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -642,6 +646,27 @@
                     "ap2Primary": true,
                     "ap1ID": 1746820837451,
                     "ap2ID": 1746820326396
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 1746821326270,
+                    "ap2ID": 1745805815892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746821326270,
+                    "ap2ID": 1746754443782
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746821326270,
+                    "ap2ID": 1746754497049
                 }
             ],
             "fileTypeVersion": 1,
