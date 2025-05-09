@@ -226,8 +226,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5994397759103641,
-                    "y": 0.604265402843602,
+                    "x": 0.5966386554621849,
+                    "y": 0.5971563981042654,
                     "uniqueID": 1745805815892,
                     "ioValues": [
                         {
@@ -427,7 +427,7 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 0
                         },
                         {
                             "name": "y-axis degrees",
@@ -435,7 +435,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 60
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -461,8 +461,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3968253968253968,
-                    "y": 0.7938388625592417,
+                    "x": 0.4024276377217554,
+                    "y": 0.7843601895734597,
                     "uniqueID": 1746821326270,
                     "ioValues": [
                         {
@@ -471,11 +471,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 14
                         },
                         {
                             "name": "zDist",
