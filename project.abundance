@@ -1122,6 +1122,84 @@
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "x + y"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.2754435107376284,
+                            "y": 0.6516587677725119,
+                            "uniqueID": 1746824486266,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 36
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.2726423902894491,
+                            "y": 0.7748815165876777,
+                            "uniqueID": 1746824531290,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 30
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.38935574229691877,
+                            "y": 0.6682464454976303,
+                            "uniqueID": 1746824610471,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1746824486266
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.49019607843137253,
+                            "y": 0.7630331753554502,
+                            "uniqueID": 1746824675195,
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": 1746824610471
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.2707749766573296,
+                            "y": 0.914691943127962,
+                            "uniqueID": 1746824759110,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 36
+                                }
+                            ],
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [
@@ -1243,6 +1321,20 @@
                             "ap2Primary": false,
                             "ap1ID": 1745960917866,
                             "ap2ID": 1745809237908
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1746824486266,
+                            "ap2ID": 1746824610471
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry1",
+                            "ap2Primary": false,
+                            "ap1ID": 1746824610471,
+                            "ap2ID": 1746824675195
                         }
                     ],
                     "fileTypeVersion": 1,
