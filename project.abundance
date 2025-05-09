@@ -226,8 +226,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5945454545454545,
-                    "y": 0.5919661733615222,
+                    "x": 0.5957049486461251,
+                    "y": 0.5876777251184834,
                     "uniqueID": 1745805815892,
                     "ioValues": [
                         {
@@ -249,6 +249,10 @@
                         {
                             "name": "Shape 6",
                             "ioValue": 1746754497049
+                        },
+                        {
+                            "name": "Shape 7",
+                            "ioValue": 1746820326396
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -317,13 +321,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.23257698541329014,
-                    "y": 0.7796208530805687,
+                    "x": 0.1783380018674136,
+                    "y": 0.7772511848341233,
                     "uniqueID": 1746753544900,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746820326396
+                            "ioValue": 1746820151319
                         },
                         {
                             "name": "xDist",
@@ -375,7 +379,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746820326396
                         },
                         {
                             "name": "x-axis degrees",
@@ -387,7 +391,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 120
+                            "ioValue": 90
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -401,7 +405,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746820326396
                         },
                         {
                             "name": "x-axis degrees",
@@ -427,7 +431,7 @@
                     "ioValues": [
                         {
                             "name": "number of sides",
-                            "ioValue": 3
+                            "ioValue": 4
                         },
                         {
                             "name": "diameter",
@@ -439,25 +443,25 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.161531279178338,
-                    "y": 0.933649289099526,
+                    "x": 0.3697478991596639,
+                    "y": 0.7843601895734597,
                     "uniqueID": 1746820326396,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746820837451
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 0
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -465,8 +469,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.32679738562091504,
-                    "y": 0.7796208530805687,
+                    "x": 0.2754435107376284,
+                    "y": 0.7819905213270142,
                     "uniqueID": 1746820837451,
                     "ioValues": [
                         {
@@ -633,8 +637,36 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1746820326396,
+                    "ap1ID": 1746820151319,
                     "ap2ID": 1746753544900
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746820326396,
+                    "ap2ID": 1746754443782
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746820326396,
+                    "ap2ID": 1746754497049
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 1746820326396,
+                    "ap2ID": 1745805815892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746820837451,
+                    "ap2ID": 1746820326396
                 }
             ],
             "fileTypeVersion": 1,
