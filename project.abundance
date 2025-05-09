@@ -811,8 +811,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.28537735849056606,
-                            "y": 0.268389662027833,
+                            "x": 0.27957860615883307,
+                            "y": 0.25829383886255924,
                             "uniqueID": 1745808926302,
                             "ioValues": [
                                 {
@@ -865,7 +865,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -891,7 +891,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1068,7 +1068,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -15
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "yDist",
@@ -1076,7 +1076,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 15
+                                    "ioValue": 28
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1199,7 +1199,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -15
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "yDist",
@@ -1207,7 +1207,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 12
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1215,8 +1215,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.373581847649919,
-                            "y": 0.7251184834123223,
+                            "x": 0.3727714748784441,
+                            "y": 0.7061611374407583,
                             "uniqueID": 1746749895587,
                             "ioValues": [
                                 {
@@ -1233,7 +1233,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 66
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
