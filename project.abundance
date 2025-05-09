@@ -1691,7 +1691,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "M4InnerSupportest"
+                    "ioValue": "M4InnerSupport"
                 },
                 {
                     "name": "File Type",
@@ -1702,7 +1702,7 @@
             "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "M4InnerSupportest"
+            "partName": "M4InnerSupport"
         },
         {
             "atomType": "Export",
