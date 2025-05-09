@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9627228525121556,
-            "y": 0.2606635071090047,
+            "x": 0.9570502431118315,
+            "y": 0.24170616113744073,
             "uniqueID": 1745802181611,
             "ioValues": [
                 {
@@ -1031,29 +1031,11 @@
                                     "ioValue": 1745808925886
                                 },
                                 {
-                                    "name": "Shape 4",
-                                    "ioValue": 1746749895587
+                                    "name": "Shape 5",
+                                    "ioValue": 1746749432248
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                        },
-                        {
-                            "atomType": "RegularPolygon",
-                            "name": "RegularPolygon",
-                            "x": 0.09157212317666126,
-                            "y": 0.6777251184834123,
-                            "uniqueID": 1745839750763,
-                            "ioValues": [
-                                {
-                                    "name": "number of sides",
-                                    "ioValue": 6
-                                },
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "description": "Creates a new regular polygon. Corners are on the diameter."
                         },
                         {
                             "atomType": "Move",
@@ -1064,7 +1046,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1746749404787
+                                    "ioValue": 1746750946968
                                 },
                                 {
                                     "name": "xDist",
@@ -1076,7 +1058,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 28
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1134,24 +1116,6 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "RegularPolygon",
-                            "name": "RegularPolygon",
-                            "x": 0.09886547811993517,
-                            "y": 0.8578199052132701,
-                            "uniqueID": 1746749404787,
-                            "ioValues": [
-                                {
-                                    "name": "number of sides",
-                                    "ioValue": 6
-                                },
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 3
-                                }
-                            ],
-                            "description": "Creates a new regular polygon. Corners are on the diameter."
-                        },
-                        {
                             "atomType": "Loft",
                             "name": "Loft",
                             "x": 0.2884927066450567,
@@ -1195,7 +1159,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1745839750763
+                                    "ioValue": 1746750915453
                                 },
                                 {
                                     "name": "xDist",
@@ -1207,36 +1171,38 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 22
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.3727714748784441,
-                            "y": 0.7061611374407583,
-                            "uniqueID": 1746749895587,
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.08508914100486223,
+                            "y": 0.6066350710900474,
+                            "uniqueID": 1746750915453,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1746749432248
-                                },
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 0
+                                    "name": "diameter",
+                                    "ioValue": 6
                                 }
                             ],
-                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.07941653160453808,
+                            "y": 0.8080568720379147,
+                            "uniqueID": 1746750946968,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 3
+                                }
+                            ],
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [
@@ -1347,13 +1313,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1745839750763,
-                            "ap2ID": 1746749543052
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "Shape 3",
                             "ap2Primary": false,
                             "ap1ID": 1745839955478,
@@ -1375,17 +1334,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1746749404787,
-                            "ap2ID": 1745839955478
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Name": "Shape 5",
+                            "ap2Primary": false,
                             "ap1ID": 1746749432248,
-                            "ap2ID": 1746749895587
+                            "ap2ID": 1745839346951
                         },
                         {
                             "ap1Name": "geometry",
@@ -1396,10 +1348,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 1746749895587,
-                            "ap2ID": 1745839346951
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1746750915453,
+                            "ap2ID": 1746749543052
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1746750946968,
+                            "ap2ID": 1745839955478
                         }
                     ],
                     "fileTypeVersion": 1,
