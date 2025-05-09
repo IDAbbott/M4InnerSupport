@@ -397,33 +397,15 @@
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 0.09710550887021475,
-                    "y": 0.7654028436018957,
-                    "uniqueID": 1746820151319,
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 12
-                        }
-                    ],
-                    "description": "Creates a new regular polygon. Corners are on the diameter."
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.32866479925303455,
-                    "y": 0.7630331753554502,
+                    "x": 0.33239962651727356,
+                    "y": 0.7654028436018957,
                     "uniqueID": 1746820326396,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746820837451
+                            "ioValue": ""
                         },
                         {
                             "name": "x-axis degrees",
@@ -435,28 +417,10 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 60
+                            "ioValue": 120
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.22315592903828196,
-                    "y": 0.7748815165876777,
-                    "uniqueID": 1746820837451,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1746820151319
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Move",
@@ -471,11 +435,86 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "yDist",
                             "ioValue": 14
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.035480859010270774,
+                    "y": 0.9004739336492892,
+                    "uniqueID": 1746822199106,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Loft",
+                    "name": "Loft",
+                    "x": 0.1484593837535014,
+                    "y": 0.7843601895734597,
+                    "uniqueID": 1746822292702,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1746585958190
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1746822340578
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1746585958190
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1746822340578
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.11484593837535015,
+                    "y": 0.914691943127962,
+                    "uniqueID": 1746822340578,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746822199106
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -607,6 +646,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1746585958190,
+                    "ap2ID": 1746822292702
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1746754286686,
@@ -630,22 +676,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1746820151319,
-                    "ap2ID": 1746820837451
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1746820326396,
                     "ap2ID": 1746821326270
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1746820837451,
-                    "ap2ID": 1746820326396
                 },
                 {
                     "ap1Name": "geometry",
@@ -667,6 +699,20 @@
                     "ap2Primary": true,
                     "ap1ID": 1746821326270,
                     "ap2ID": 1746754497049
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746822199106,
+                    "ap2ID": 1746822340578
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1746822340578,
+                    "ap2ID": 1746822292702
                 }
             ],
             "fileTypeVersion": 1,
