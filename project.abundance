@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9570502431118315,
-            "y": 0.24170616113744073,
+            "x": 0.9457050243111832,
+            "y": 0.23696682464454977,
             "uniqueID": 1745802181611,
             "ioValues": [
                 {
@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SolidBits",
-            "x": 0.13695299837925445,
-            "y": 0.22985781990521328,
+            "x": 0.13209076175040518,
+            "y": 0.21327014218009477,
             "uniqueID": 1745802195632,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -91,7 +91,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -267,7 +267,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 78
+                            "ioValue": 73
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -295,7 +295,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -304,12 +304,12 @@
                 {
                     "atomType": "Constant",
                     "name": "Length",
-                    "x": 0.022690437601296597,
-                    "y": 0.6895734597156399,
+                    "x": 0.02188006482982172,
+                    "y": 0.6777251184834123,
                     "uniqueID": 1745806318132,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 10
+                    "value": 15
                 },
                 {
                     "atomType": "Circle",
@@ -865,7 +865,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 40
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -891,7 +891,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1058,7 +1058,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1136,7 +1136,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
