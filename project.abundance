@@ -1046,65 +1046,21 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
                         },
                         {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.17028301886792452,
-                            "y": 0.6739562624254474,
-                            "uniqueID": 1745839776653,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1745839750763
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 10
-                                }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.2660377358490566,
-                            "y": 0.7117296222664016,
-                            "uniqueID": 1745839812738,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1745839776653
-                                },
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 30
-                                }
-                            ],
-                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-                        },
-                        {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.3411669367909238,
-                            "y": 0.7985781990521328,
+                            "x": 0.19367909238249595,
+                            "y": 0.8293838862559242,
                             "uniqueID": 1745839955478,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1745839812738
+                                    "ioValue": 1746749404787
                                 },
                                 {
                                     "name": "xDist",
@@ -1116,7 +1072,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 20
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1169,6 +1125,77 @@
                                 {
                                     "name": "zDist",
                                     "ioValue": 81
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "RegularPolygon",
+                            "name": "RegularPolygon",
+                            "x": 0.09886547811993517,
+                            "y": 0.8578199052132701,
+                            "uniqueID": 1746749404787,
+                            "ioValues": [
+                                {
+                                    "name": "number of sides",
+                                    "ioValue": 6
+                                },
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "description": "Creates a new regular polygon. Corners are on the diameter."
+                        },
+                        {
+                            "atomType": "Loft",
+                            "name": "Loft",
+                            "x": 0.39222042139384117,
+                            "y": 0.7037914691943128,
+                            "uniqueID": 1746749432248,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": 1745839955478
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": 1745839955478
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
+                            "closedSelection": 0
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.21231766612641814,
+                            "y": 0.6232227488151659,
+                            "uniqueID": 1746749543052,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1745839750763
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -15
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1285,21 +1312,14 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 1745839750763,
-                            "ap2ID": 1745839776653
+                            "ap2ID": 1746749543052
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1745839776653,
-                            "ap2ID": 1745839812738
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1745839812738,
-                            "ap2ID": 1745839955478
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 1745839955478,
+                            "ap2ID": 1746749432248
                         },
                         {
                             "ap1Name": "geometry",
@@ -1314,6 +1334,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1745960917866,
                             "ap2ID": 1745809237908
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1746749404787,
+                            "ap2ID": 1745839955478
                         }
                     ],
                     "fileTypeVersion": 1,
