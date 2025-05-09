@@ -328,8 +328,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.21961102106969205,
-                    "y": 0.938388625592417,
+                    "x": 0.22123176661264182,
+                    "y": 0.9170616113744076,
                     "uniqueID": 1746753545255,
                     "ioValues": [
                         {
@@ -354,8 +354,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.35089141004862234,
-                    "y": 0.8317535545023697,
+                    "x": 0.23257698541329014,
+                    "y": 0.7796208530805687,
                     "uniqueID": 1746753544900,
                     "ioValues": [
                         {
@@ -372,7 +372,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5
+                            "ioValue": 10
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -400,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 6
+                            "ioValue": 9
                         }
                     ],
                     "description": "Creates a new circle."
@@ -408,8 +408,8 @@
                 {
                     "atomType": "Loft",
                     "name": "Loft",
-                    "x": 0.306320907617504,
-                    "y": 0.9241706161137442,
+                    "x": 0.28606158833063206,
+                    "y": 0.933649289099526,
                     "uniqueID": 1746753544708,
                     "ioValues": [
                         {
