@@ -1136,7 +1136,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 36
+                                    "ioValue": 38
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1150,7 +1150,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 36
+                                    "ioValue": 38
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1708,7 +1708,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "M4InnerSupport"
+                    "ioValue": "M4InnerSupportTest"
                 },
                 {
                     "name": "File Type",
@@ -1719,7 +1719,7 @@
             "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "M4InnerSupport"
+            "partName": "M4InnerSupportTest"
         },
         {
             "atomType": "Export",
