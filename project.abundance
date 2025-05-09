@@ -537,8 +537,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.07714016933207903,
-                    "y": 0.1572052401746725,
+                    "x": 0.07376283846872082,
+                    "y": 0.17298578199052134,
                     "uniqueID": 1745806603696,
                     "ioValues": [
                         {
@@ -1436,7 +1436,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 26
+                            "ioValue": 30
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1454,7 +1454,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 88
+                            "ioValue": 10
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1465,15 +1465,20 @@
                     "x": 0.7357609710550886,
                     "y": 0.4881516587677725,
                     "uniqueID": 1746823637951,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746823877670
+                        }
+                    ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 22
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7852474323062558,
-                    "y": 0.5521327014218009,
+                    "x": 0.7889822595704948,
+                    "y": 0.5497630331753555,
                     "uniqueID": 1746823663117,
                     "ioValues": [
                         {
@@ -1490,13 +1495,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6685340802987862,
-                    "y": 0.35308056872037913,
+                    "x": 0.6610644257703081,
+                    "y": 0.49289099526066354,
                     "uniqueID": 1746823877670,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1746823558510
                         },
                         {
                             "name": "xDist",
@@ -1508,7 +1513,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1678,6 +1683,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746823558510,
+                    "ap2ID": 1746823877670
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1746823637951,
@@ -1689,6 +1701,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1746823663117,
                     "ap2ID": 1745804907998
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746823877670,
+                    "ap2ID": 1746823637951
                 }
             ],
             "fileTypeVersion": 1,
