@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SolidBits",
-            "x": 0.13209076175040518,
-            "y": 0.21327014218009477,
+            "x": 0.12965964343598055,
+            "y": 0.1990521327014218,
             "uniqueID": 1745802195632,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -125,8 +125,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.880064829821718,
-                    "y": 0.11848341232227488,
+                    "x": 0.8743922204213938,
+                    "y": 0.11137440758293839,
                     "uniqueID": 1745803693620,
                     "ioValues": [
                         {
@@ -245,6 +245,14 @@
                         {
                             "name": "Shape 4",
                             "ioValue": 1746753544708
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1746754443782
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": 1746754497049
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -271,7 +279,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 78
+                            "ioValue": 88
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -285,25 +293,6 @@
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
                     "value": 88
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "x - y",
-                    "x": 0.23095623987034036,
-                    "y": 0.6706161137440758,
-                    "uniqueID": 1745806239647,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 88
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x - y"
                 },
                 {
                     "atomType": "Constant",
@@ -350,7 +339,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 15
+                            "ioValue": 20
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -398,8 +387,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.14829821717990277,
-                    "y": 0.7819905213270142,
+                    "x": 0.15072933549432738,
+                    "y": 0.7748815165876777,
                     "uniqueID": 1746753544704,
                     "ioValues": [
                         {
@@ -466,6 +455,58 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.48541329011345213,
+                    "y": 0.7938388625592417,
+                    "uniqueID": 1746754443782,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746753544708
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 120
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.48217179902755264,
+                    "y": 0.933649289099526,
+                    "uniqueID": 1746754497049,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746753544708
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 240
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -572,16 +613,9 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 1745806152836,
-                    "ap2ID": 1745806239647
-                },
-                {
-                    "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap2Primary": false,
-                    "ap1ID": 1745806239647,
+                    "ap1ID": 1745806152836,
                     "ap2ID": 1745805882117
                 },
                 {
@@ -590,13 +624,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1745806318132,
                     "ap2ID": 1745803380342
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "y",
-                    "ap2Primary": false,
-                    "ap1ID": 1745806318132,
-                    "ap2ID": 1745806239647
                 },
                 {
                     "ap1Name": "geometry",
@@ -644,8 +671,36 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 1746753544708,
+                    "ap2ID": 1746754443782
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746753544708,
+                    "ap2ID": 1746754497049
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1746754286686,
                     "ap2ID": 1745805882117
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 1746754443782,
+                    "ap2ID": 1745805815892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 1746754497049,
+                    "ap2ID": 1745805815892
                 }
             ],
             "fileTypeVersion": 1,
