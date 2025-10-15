@@ -18,149 +18,11 @@
     {
       "atomType": "Color",
       "name": "Color",
-      "x": 0.33454545454545453,
-      "y": 0.5919661733615222,
+      "x": 0.2923076923076923,
+      "y": 0.6104166666666667,
       "uniqueID": 1745805102912,
       "ioValues": [],
-      "selectedColorIndex": 22
-    },
-    {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.5481818181818182,
-      "y": 0.3551797040169133,
-      "uniqueID": 1745805235073,
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "fuse-22541b5c80b7b35f991f7e3dc538a3c70a20f507e5dc305e2869536e2bb5447e",
-            "tags": [],
-            "bom": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "dimension": "3D"
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "fuse-cf9d74d6a75cdd00ae70cf16adf25d8cab921627223c7e36c4f7d40ea77839fd",
-            "tags": [],
-            "bom": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#E6F3FF",
-            "dimension": "3D"
-          }
-        },
-        {
-          "name": "Shape 5",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "move-6447533be20dfcf144546ff494156bb14265f505193e41c1599ed2faa90480ec",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              },
-              {
-                "geometry": "move-d29edfa5004ebf7feb791aefe6f6c4cce369facae00d7f5ac02344d32fa52ede",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#E6F3FF",
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        }
-      ]
+      "selectedColorIndex": 10
     },
     {
       "atomType": "Export",
@@ -984,8 +846,8 @@
         {
           "atomType": "Output",
           "name": "Output",
-          "x": 0.9693396226415094,
-          "y": 0.4970178926441352,
+          "x": 0.9656108597285068,
+          "y": 0.4854166666666667,
           "uniqueID": 1745802264769,
           "ioValues": []
         },
@@ -1305,8 +1167,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.7722852512155591,
-          "y": 0.8744075829383886,
+          "x": 0.7751131221719457,
+          "y": 0.8666666666666667,
           "uniqueID": 1745808154548,
           "ioValues": [
             {
@@ -3352,26 +3214,158 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Difference",
+      "name": "Difference",
+      "x": 0.33665158371040727,
+      "y": 0.26666666666666666,
+      "uniqueID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd",
+      "ioValues": []
+    },
+    {
+      "atomType": "Assembly",
+      "name": "Assembly",
+      "x": 0.4647058823529412,
+      "y": 0.3833333333333333,
+      "uniqueID": "065614db-cf33-402a-be86-4a1f72f593d8",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "cut-be5504ade30f67883a4bf5671e6986b8897b2d1911b8882da9eaf6c62ec96a0f",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-6447533be20dfcf144546ff494156bb14265f505193e41c1599ed2faa90480ec",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-d29edfa5004ebf7feb791aefe6f6c4cce369facae00d7f5ac02344d32fa52ede",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#E6F3FF",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.5660633484162896,
+      "y": 0.15625,
+      "uniqueID": "4e70da2e-db1f-4377-ae5e-0e2b43353d45",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4InnerSupport"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4InnerSupport"
     }
   ],
   "allConnectors": [
     {
       "ap1Name": "color",
-      "ap2Name": "Shape 2",
+      "ap2Name": "geometry2",
       "ap1ID": 1745805102912,
-      "ap2ID": 1745805235073
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": 1745805235073,
-      "ap2ID": 1745808374784
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "number or geometry",
-      "ap1ID": 1745805235073,
-      "ap2ID": 1745802181611
+      "ap2ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd"
     },
     {
       "ap1Name": "geometry",
@@ -3381,15 +3375,15 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "Shape 5",
+      "ap2Name": "Shape 2",
       "ap1ID": 1746675519063,
-      "ap2ID": 1745805235073
+      "ap2ID": "065614db-cf33-402a-be86-4a1f72f593d8"
     },
     {
       "ap1Name": "geometry or number",
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry1",
       "ap1ID": 1745802195632,
-      "ap2ID": 1745805235073
+      "ap2ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd"
     },
     {
       "ap1Name": "geometry or number",
@@ -3402,6 +3396,30 @@
       "ap2Name": "geometry",
       "ap1ID": 1745802265475,
       "ap2ID": 1745805102912
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd",
+      "ap2ID": "065614db-cf33-402a-be86-4a1f72f593d8"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd",
+      "ap2ID": "4e70da2e-db1f-4377-ae5e-0e2b43353d45"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "065614db-cf33-402a-be86-4a1f72f593d8",
+      "ap2ID": 1745808374784
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "065614db-cf33-402a-be86-4a1f72f593d8",
+      "ap2ID": 1745802181611
     }
   ],
   "unitsKey": "MM",
