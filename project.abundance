@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "LengthSpacer",
-      "ioValue": 718,
-      "currentEquation": "718"
+      "ioValue": 71.8
     }
   ],
   "topLevel": true,
@@ -699,7 +698,7 @@
       "ioValues": [
         {
           "name": "LengthSpacer",
-          "ioValue": 718,
+          "ioValue": 71.8,
           "currentEquation": "10"
         }
       ],
@@ -741,7 +740,7 @@
             },
             {
               "name": "height",
-              "ioValue": 718
+              "ioValue": 71.8
             }
           ]
         },
@@ -769,7 +768,7 @@
             },
             {
               "name": "height",
-              "ioValue": 718
+              "ioValue": 71.8
             }
           ]
         },
@@ -1065,11 +1064,16 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 59
             }
           ]
         },
@@ -1109,11 +1113,57 @@
             },
             {
               "name": "Shape 8",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-circle-5.5-0-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    10
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             },
             {
               "name": "Shape 9",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "circle-9",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ],
           "closedSelection": 0
