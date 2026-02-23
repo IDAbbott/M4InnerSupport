@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "LengthSpacer",
-      "ioValue": 42
+      "ioValue": 42,
+      "currentEquation": "42"
     },
     {
       "name": "Length",
@@ -103,8 +104,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5660633484162896,
-      "y": 0.15625,
+      "x": 0.5682747342600164,
+      "y": 0.15789473684210528,
       "uniqueID": "4e70da2e-db1f-4377-ae5e-0e2b43353d45",
       "ioValues": [
         {
@@ -133,8 +134,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5928045789043336,
-      "y": 0.6118421052631579,
+      "x": 0.5960752248569092,
+      "y": 0.6074561403508771,
       "uniqueID": "id-267",
       "ioValues": [
         {
@@ -143,8 +144,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -152,19 +153,19 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4InnerSupport",
-          "currentEquation": "M4InnerSupport"
+          "ioValue": "M4InnerSlug",
+          "currentEquation": "M4InnerSlug"
         }
       ],
-      "type": null,
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4InnerSupport"
+      "partName": "M4InnerSlug"
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.5745614035087719,
+      "y": 0.15384615384615385,
       "uniqueID": "id-272",
       "name": "LengthSpacer"
     },
@@ -191,8 +192,7 @@
       "ioValues": [
         {
           "name": "Length_1",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "Length",
@@ -549,8 +549,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -847,7 +846,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.5964912280701754,
+          "y": 0.15384615384615385,
           "uniqueID": 1746675293021,
           "name": "LengthSpacer",
           "type": "number"
@@ -906,8 +905,7 @@
       "ioValues": [
         {
           "name": "Length",
-          "ioValue": 88,
-          "currentEquation": "10"
+          "ioValue": 88
         }
       ],
       "topLevel": false,
@@ -1114,16 +1112,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
               "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 59
             }
           ]
         },
@@ -1163,57 +1156,11 @@
             },
             {
               "name": "Shape 8",
-              "ioValue": {
-                "geometry": "move-circle-5.5-0-0-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    10
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 9",
-              "ioValue": {
-                "geometry": "circle-9",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "closedSelection": 0
@@ -1308,8 +1255,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -1333,6 +1279,13 @@
             }
           ],
           "selectedColor": "Glass"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-813",
+          "name": "Length"
         },
         {
           "atomType": "Molecule",
@@ -2796,13 +2749,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.6842105263157895,
-          "uniqueID": "id-813",
-          "name": "Length"
         }
       ],
       "allConnectors": [
@@ -2872,11 +2818,6 @@
           "ap2ID": 1745804907998
         },
         {
-          "ap2Name": "Shape 11",
-          "ap1ID": 1745808852229,
-          "ap2ID": 1745804907998
-        },
-        {
           "ap2Name": "height",
           "ap1ID": "id-813",
           "ap2ID": 1745806759685
@@ -2890,6 +2831,11 @@
           "ap2Name": "x",
           "ap1ID": "id-813",
           "ap2ID": 1745810630987
+        },
+        {
+          "ap2Name": "Shape 11",
+          "ap1ID": 1745808852229,
+          "ap2ID": 1745804907998
         }
       ],
       "fileTypeVersion": 1
