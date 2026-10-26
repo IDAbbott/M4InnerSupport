@@ -2,7 +2,14 @@
 
 # M4InnerSupport
 
-![](/project.svg)
+![](/project.png)
+
+## Inputs
+
+- **LengthSpacer** (number)
+- **Length** (number)
+- **LengthFin** (number)
+
 
 
 
